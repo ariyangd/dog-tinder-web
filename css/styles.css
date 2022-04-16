@@ -2,21 +2,13 @@ body {
     font-family: "Montserrat";
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
-.container-fluid {
-    padding: 3% 15% 8%;
-}
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     color: white;
 }
+
 
 h2 {
     font-family: "Montserrat-Bold";
@@ -27,6 +19,18 @@ h2 {
 p {
     color: grey;
 }
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 8%;
+}
+
+
 
 
 /* navbar  */
@@ -130,4 +134,43 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+
 }
